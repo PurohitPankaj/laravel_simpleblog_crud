@@ -59,6 +59,38 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+
+<h1>Clone Repo Steps</h1>
+
+<h2>Clone this repo - Follow Steps</h2>
+
+<code>(https://github.com/PurohitPankaj/laravel_simpleblog_crud)</code>
+
+<h2>Install composer packages - Required</h2>
+<pre><code>
+$ cd to cloned dir
+$ composer install
+$ npm install
+$ npm run dev
+</pre></code>
+
+<h2>Create and setup .env file</h2>
+<pre>
+make a copy of .env.example and rename to .env
+<code>$ php artisan key:generate</code>
+put database credentials in .env file
+</pre>
+
+<h2>Migrate and insert records</h2>
+
+<pre><code>
+$ php artisan migrate
+$ php artisan db:seed //It will generate Admin Account admin@admin.com | Mob: 9999999999 pass - 99999999
+$ exit
+</pre>
+</code>
+<p>Incase any issue then contact me anytime [ Contact details you already have :) ] </p>
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
